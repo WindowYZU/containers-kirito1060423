@@ -20,7 +20,7 @@ public class CloseOperationSample extends javax.swing.JFrame {
     public CloseOperationSample() {
         initComponents();
         //modify the parameter below to EXIT_ON_CLOSE
-        this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         /////////////////////////////////////////////
     }
 
